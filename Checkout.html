@@ -6,8 +6,8 @@
     <title>About Us - AMRS</title>
     <link rel="icon" href="armslogo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-<style>
-    * {
+    <style>
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -16,9 +16,27 @@
         body {
             background-color: rgb(243, 240, 247);
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar {
+            background-color: #f8f2f2;
+            color: rgb(60, 129, 69);
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar ul li {
+            margin: 10px 0;
+            font-size: 18px;   
+        }
+        .footer {
+            background-color: #095806;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
         }
         .checkout-container {
             width: 400px;
@@ -26,6 +44,7 @@
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: auto;
         }
         h2 {
             margin-bottom: 20px;
@@ -49,7 +68,7 @@
             display: block;
             width: 100%;
             padding: 10px;
-            background-color: #007BFF;
+            background-color: #0f8b04;
             color: white;
             text-align: center;
             text-decoration: none;
@@ -58,11 +77,22 @@
             margin-top: 20px;
         }
         .button:hover {
-            background-color: #0056b3;
+            background-color: #2cfa10;
+        }
+        .footer{
+            margin: 0;
         }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <h1>AMRS</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
     <div class="checkout-container">
         <h2>Checkout</h2>
         <form>
@@ -96,6 +126,9 @@
             </div>
             <a href="#" class="button">Submit Payment</a>
         </form>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 AMRS. All rights reserved.</p>
     </div>
 </body>
 </html>
