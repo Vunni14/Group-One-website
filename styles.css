@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ffffff;
+    color: rgb(60, 129, 69);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(60, 129, 69);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;
+    margin: o 15px;
+}
+header nav ul li a:hover{
+    color: #25f169;
+}
+
+header nav ul li .search-form {
+    display: flex;
+    float: left ;
+
+}
+
+header nav ul li .search-form input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+header nav ul li .search-form button {
+    padding: 5px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background: #138f43;
+    color: white;
+    cursor: pointer;
+}
+
+header nav ul li .search-form button:hover {
+    background: rgb(60, 129, 69);
+}
+
+.hero {
+    background: url('AMR.jpg') center center/cover no-repeat;
+    color: white;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.cta-button {
+    background: #ffffff;
+    color: rgb(121, 214, 133);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background: #4e6859;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* About Section */
+.about ul {
+    align-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Services Section */
+.service {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.service p {
+    font-size: 18px;
+}
+
+/* Contact Section */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact form button {
+    background: #335f33;
+    color: rgb(241, 245, 242);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #25f169;
+}
+
+/* Login */
+.login {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.login h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.login input[type="submit"] {
+    padding: 12px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.login .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background: #267c39;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+/* User Manual */
+.manual ul {
+    list-style: none;
+    padding: 0;
+}
+
+.manual ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.manual h3 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.manual p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Blog Section */
+.blog {
+    padding: 40px 20px;
+}
+
+.blog h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.blog-post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-post .post-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header .logo {
+        padding-left: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    .service h3 {
+        font-size: 20px;
+    }
+
+    .service p {
+        font-size: 16px;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        font-size: 14px;
+    }    
+}

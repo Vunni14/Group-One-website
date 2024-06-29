@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - AMRS</title>
+    <link rel="icon" href="armslogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: rgb(243, 240, 247);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .logo h1 {
+            display: inline;
+            margin-left: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #0056b3;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .blog {
+            margin-top: 20px;
+        }
+        .blog h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .blog-post {
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post h3 {
+            margin-bottom: 10px;
+        }
+        .post-meta {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .read-more:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="armslogo.jpg" alt="ARMS Logo">
+            <h1>AMRS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="blog container">
+        <h2>Blog</h2>
+        <article class="blog-post">
+            <h3>Understanding Antimicrobial Resistance</h3>
+            <p class="post-meta">Posted on June 20, 2024 by Dr. Ainebyona Emmanuel</p>
+            <p>Antimicrobial resistance (AMR) is one of the biggest threats to global health today. It occurs when bacteria, viruses, fungi, and parasites change over time and no longer respond to medicines, making infections harder to treat and increasing the risk of disease spread, severe illness, and death. In this blog post, we explore the causes of AMR and what can be done to combat it...</p>
+            <a href="post1.html" class="read-more">Read More</a>
+        </article>
+        <article class="blog-post">
+            <h3>The Role of Data in Combating AMR</h3>
+            <p class="post-meta">Posted on May 15, 2024 by Dr. Vunni Brian</p>
+            <p>Data plays a critical role in understanding and combating antimicrobial resistance. Through comprehensive data collection and analysis, researchers and healthcare professionals can identify trends, track the spread of resistance, and develop targeted strategies to address the issue...</p>
+            <a href="post2.html" class="read-more">Read More</a>
+        </article>
+        <article class="blog-post">
+            <h3>The Importance of Surveillance in AMR Control</h3>
+            <p class="post-meta">Posted on May 16, 2024 by Dr. Akandwanaho James</p>
+            <p>Surveillance systems are essential in monitoring antimicrobial resistance patterns in healthcare settings. By surveilling resistant pathogens and their prevalence, healthcare providers can implement timely interventions and infection control measures to limit the spread of resistance.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Challenges in Antibiotic Stewardship</h3>
+            <p class="post-meta">Posted on May 17, 2024 by Dr. Edekeka Jordan Peter</p>
+            <p>Antibiotic stewardship faces challenges such as lack of awareness among healthcare providers, patient expectations for antibiotics, and the need for rapid diagnostic tests. Addressing these challenges is crucial for promoting responsible antibiotic use and combating antimicrobial resistance.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Strategies for Public Awareness on AMR</h3>
+            <p class="post-meta">Posted on May 18, 2024 by Dr. Nakirijja Shamim</p>
+            <p>Public awareness plays a vital role in addressing antimicrobial resistance. Effective communication strategies, education campaigns, and community engagement initiatives are essential in promoting responsible use of antibiotics and combating the rise of resistance.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Role of Policy Makers in AMR Prevention</h3>
+            <p class="post-meta">Posted on May 19, 2024 by Dr. Nkurunziza Precious</p>
+            <p>Policy makers have a crucial role in implementing regulations and policies that support antimicrobial stewardship. By creating frameworks for antibiotic use, promoting research funding, and fostering international collaborations, policymakers can contribute significantly to global efforts against AMR.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Technological Innovations in AMR Research</h3>
+            <p class="post-meta">Posted on May 20, 2024 by Dr. Akampa Amos</p>
+            <p>Technological advancements such as genomic sequencing, artificial intelligence, and rapid diagnostic tools are revolutionizing antimicrobial resistance research. These innovations enable quicker identification of resistant pathogens and facilitate the development of targeted treatment strategies.</p>
+        </article>
+        <article class="blog-post">
+            <h3>The Role of Education in AMR Awareness</h3>
+            <p class="post-meta">Posted on May 21, 2024 by Dr. Amukuje Priscilla</p>
+            <p>Education is fundamental in raising awareness about antimicrobial resistance among healthcare professionals, patients, and the general public. By integrating AMR topics into medical curricula, conducting training programs, and promoting continuous learning, we can empower individuals to make informed decisions regarding antibiotic use.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Social Determinants of AMR</h3>
+            <p class="post-meta">Posted on May 22, 2024 by Dr. Rachkara Ronnie William</p>
+            <p>Social factors such as access to healthcare, socioeconomic status, and cultural beliefs influence antimicrobial resistance patterns. Addressing these determinants requires a multidisciplinary approach involving healthcare providers, policymakers, and community leaders to develop equitable and sustainable solutions.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Global Collaboration in AMR Control</h3>
+            <p class="post-meta">Posted on May 23, 2024 by Dr. Babirye Angella Tracy</p>
+            <p>Global cooperation is essential in tackling antimicrobial resistance, a complex and multifaceted global health challenge. By sharing knowledge, resources, and best practices across borders, countries can strengthen their efforts to combat AMR and safeguard public health worldwide.</p>
+        </article>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AMRS. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
