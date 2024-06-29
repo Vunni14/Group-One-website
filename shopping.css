@@ -88,6 +88,8 @@ nav ul li a {
 }
 
 .button {
+    position: fixed;
+    align: bottom;
     display: inline-block;
     padding: 10px 20px;
     background-color: #0fad37;
