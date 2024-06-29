@@ -88,9 +88,8 @@ nav ul li a {
 }
 
 .button {
-    position: fixed;
-    box-align: bottom;
-    display: inline-block;
+    display: flow-root;
+    position: inherit;
     padding: 10px 20px;
     background-color: #0fad37;
     color: white;
@@ -104,7 +103,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #08851d;
     color: #fff;
     text-align: center;
     padding: 10px 0;
